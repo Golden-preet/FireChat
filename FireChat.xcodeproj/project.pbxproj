@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		308407F026D52F86003EFCBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308407EF26D52F86003EFCBE /* AppDelegate.swift */; };
+		308407F226D52F86003EFCBE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308407F126D52F86003EFCBE /* SceneDelegate.swift */; };
+		308407F426D52F86003EFCBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308407F326D52F86003EFCBE /* ViewController.swift */; };
+		308407F726D52F86003EFCBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308407F526D52F86003EFCBE /* Main.storyboard */; };
+		308407F926D52F87003EFCBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 308407F826D52F87003EFCBE /* Assets.xcassets */; };
+		308407FC26D52F87003EFCBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308407FA26D52F87003EFCBE /* LaunchScreen.storyboard */; };
+		3084080726D52F87003EFCBE /* FireChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3084080626D52F87003EFCBE /* FireChatTests.swift */; };
+		3084081226D52F87003EFCBE /* FireChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3084081126D52F87003EFCBE /* FireChatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3084080326D52F87003EFCBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 308407E426D52F86003EFCBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 308407EB26D52F86003EFCBE;
+			remoteInfo = FireChat;
+		};
+		3084080E26D52F87003EFCBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 308407E426D52F86003EFCBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 308407EB26D52F86003EFCBE;
+			remoteInfo = FireChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		308407EC26D52F86003EFCBE /* FireChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		308407EF26D52F86003EFCBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		308407F126D52F86003EFCBE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		308407F326D52F86003EFCBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		308407F626D52F86003EFCBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		308407F826D52F87003EFCBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		308407FB26D52F87003EFCBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		308407FD26D52F87003EFCBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3084080226D52F87003EFCBE /* FireChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FireChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3084080626D52F87003EFCBE /* FireChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireChatTests.swift; sourceTree = "<group>"; };
+		3084080826D52F87003EFCBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3084080D26D52F87003EFCBE /* FireChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FireChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3084081126D52F87003EFCBE /* FireChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireChatUITests.swift; sourceTree = "<group>"; };
+		3084081326D52F87003EFCBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		308407E926D52F86003EFCBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		308407FF26D52F87003EFCBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3084080A26D52F87003EFCBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		308407E326D52F86003EFCBE = {
+			isa = PBXGroup;
+			children = (
+				308407EE26D52F86003EFCBE /* FireChat */,
+				3084080526D52F87003EFCBE /* FireChatTests */,
+				3084081026D52F87003EFCBE /* FireChatUITests */,
+				308407ED26D52F86003EFCBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		308407ED26D52F86003EFCBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				308407EC26D52F86003EFCBE /* FireChat.app */,
+				3084080226D52F87003EFCBE /* FireChatTests.xctest */,
+				3084080D26D52F87003EFCBE /* FireChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		308407EE26D52F86003EFCBE /* FireChat */ = {
+			isa = PBXGroup;
+			children = (
+				308407EF26D52F86003EFCBE /* AppDelegate.swift */,
+				308407F126D52F86003EFCBE /* SceneDelegate.swift */,
+				308407F326D52F86003EFCBE /* ViewController.swift */,
+				308407F526D52F86003EFCBE /* Main.storyboard */,
+				308407F826D52F87003EFCBE /* Assets.xcassets */,
+				308407FA26D52F87003EFCBE /* LaunchScreen.storyboard */,
+				308407FD26D52F87003EFCBE /* Info.plist */,
+			);
+			path = FireChat;
+			sourceTree = "<group>";
+		};
+		3084080526D52F87003EFCBE /* FireChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				3084080626D52F87003EFCBE /* FireChatTests.swift */,
+				3084080826D52F87003EFCBE /* Info.plist */,
+			);
+			path = FireChatTests;
+			sourceTree = "<group>";
+		};
+		3084081026D52F87003EFCBE /* FireChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3084081126D52F87003EFCBE /* FireChatUITests.swift */,
+				3084081326D52F87003EFCBE /* Info.plist */,
+			);
+			path = FireChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		308407EB26D52F86003EFCBE /* FireChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3084081626D52F87003EFCBE /* Build configuration list for PBXNativeTarget "FireChat" */;
+			buildPhases = (
+				308407E826D52F86003EFCBE /* Sources */,
+				308407E926D52F86003EFCBE /* Frameworks */,
+				308407EA26D52F86003EFCBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FireChat;
+			productName = FireChat;
+			productReference = 308407EC26D52F86003EFCBE /* FireChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3084080126D52F87003EFCBE /* FireChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3084081926D52F87003EFCBE /* Build configuration list for PBXNativeTarget "FireChatTests" */;
+			buildPhases = (
+				308407FE26D52F87003EFCBE /* Sources */,
+				308407FF26D52F87003EFCBE /* Frameworks */,
+				3084080026D52F87003EFCBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3084080426D52F87003EFCBE /* PBXTargetDependency */,
+			);
+			name = FireChatTests;
+			productName = FireChatTests;
+			productReference = 3084080226D52F87003EFCBE /* FireChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3084080C26D52F87003EFCBE /* FireChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3084081C26D52F87003EFCBE /* Build configuration list for PBXNativeTarget "FireChatUITests" */;
+			buildPhases = (
+				3084080926D52F87003EFCBE /* Sources */,
+				3084080A26D52F87003EFCBE /* Frameworks */,
+				3084080B26D52F87003EFCBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3084080F26D52F87003EFCBE /* PBXTargetDependency */,
+			);
+			name = FireChatUITests;
+			productName = FireChatUITests;
+			productReference = 3084080D26D52F87003EFCBE /* FireChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		308407E426D52F86003EFCBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					308407EB26D52F86003EFCBE = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					3084080126D52F87003EFCBE = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 308407EB26D52F86003EFCBE;
+					};
+					3084080C26D52F87003EFCBE = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 308407EB26D52F86003EFCBE;
+					};
+				};
+			};
+			buildConfigurationList = 308407E726D52F86003EFCBE /* Build configuration list for PBXProject "FireChat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 308407E326D52F86003EFCBE;
+			productRefGroup = 308407ED26D52F86003EFCBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				308407EB26D52F86003EFCBE /* FireChat */,
+				3084080126D52F87003EFCBE /* FireChatTests */,
+				3084080C26D52F87003EFCBE /* FireChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		308407EA26D52F86003EFCBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				308407FC26D52F87003EFCBE /* LaunchScreen.storyboard in Resources */,
+				308407F926D52F87003EFCBE /* Assets.xcassets in Resources */,
+				308407F726D52F86003EFCBE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3084080026D52F87003EFCBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3084080B26D52F87003EFCBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		308407E826D52F86003EFCBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				308407F426D52F86003EFCBE /* ViewController.swift in Sources */,
+				308407F026D52F86003EFCBE /* AppDelegate.swift in Sources */,
+				308407F226D52F86003EFCBE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		308407FE26D52F87003EFCBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3084080726D52F87003EFCBE /* FireChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3084080926D52F87003EFCBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3084081226D52F87003EFCBE /* FireChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3084080426D52F87003EFCBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 308407EB26D52F86003EFCBE /* FireChat */;
+			targetProxy = 3084080326D52F87003EFCBE /* PBXContainerItemProxy */;
+		};
+		3084080F26D52F87003EFCBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 308407EB26D52F86003EFCBE /* FireChat */;
+			targetProxy = 3084080E26D52F87003EFCBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		308407F526D52F86003EFCBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				308407F626D52F86003EFCBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		308407FA26D52F87003EFCBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				308407FB26D52F87003EFCBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3084081426D52F87003EFCBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3084081526D52F87003EFCBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3084081726D52F87003EFCBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FireChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = golden.FireChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3084081826D52F87003EFCBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FireChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = golden.FireChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3084081A26D52F87003EFCBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FireChatTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = golden.FireChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FireChat.app/FireChat";
+			};
+			name = Debug;
+		};
+		3084081B26D52F87003EFCBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FireChatTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = golden.FireChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FireChat.app/FireChat";
+			};
+			name = Release;
+		};
+		3084081D26D52F87003EFCBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FireChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = golden.FireChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FireChat;
+			};
+			name = Debug;
+		};
+		3084081E26D52F87003EFCBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FireChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = golden.FireChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FireChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		308407E726D52F86003EFCBE /* Build configuration list for PBXProject "FireChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3084081426D52F87003EFCBE /* Debug */,
+				3084081526D52F87003EFCBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3084081626D52F87003EFCBE /* Build configuration list for PBXNativeTarget "FireChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3084081726D52F87003EFCBE /* Debug */,
+				3084081826D52F87003EFCBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3084081926D52F87003EFCBE /* Build configuration list for PBXNativeTarget "FireChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3084081A26D52F87003EFCBE /* Debug */,
+				3084081B26D52F87003EFCBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3084081C26D52F87003EFCBE /* Build configuration list for PBXNativeTarget "FireChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3084081D26D52F87003EFCBE /* Debug */,
+				3084081E26D52F87003EFCBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 308407E426D52F86003EFCBE /* Project object */;
+}
